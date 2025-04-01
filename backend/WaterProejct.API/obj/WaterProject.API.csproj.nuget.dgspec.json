@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ainsl\\Desktop\\WaterProject\\backend\\WaterProejct.API\\WaterProject.API.csproj": {}
+    "C:\\Users\\ainsl\\Desktop\\Water_Project\\backend\\WaterProejct.API\\WaterProject.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ainsl\\Desktop\\WaterProject\\backend\\WaterProejct.API\\WaterProject.API.csproj": {
+    "C:\\Users\\ainsl\\Desktop\\Water_Project\\backend\\WaterProejct.API\\WaterProject.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ainsl\\Desktop\\WaterProject\\backend\\WaterProejct.API\\WaterProject.API.csproj",
+        "projectUniqueName": "C:\\Users\\ainsl\\Desktop\\Water_Project\\backend\\WaterProejct.API\\WaterProject.API.csproj",
         "projectName": "WaterProject.API",
-        "projectPath": "C:\\Users\\ainsl\\Desktop\\WaterProject\\backend\\WaterProejct.API\\WaterProject.API.csproj",
+        "projectPath": "C:\\Users\\ainsl\\Desktop\\Water_Project\\backend\\WaterProejct.API\\WaterProject.API.csproj",
         "packagesPath": "C:\\Users\\ainsl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ainsl\\Desktop\\WaterProject\\backend\\WaterProejct.API\\obj\\",
+        "outputPath": "C:\\Users\\ainsl\\Desktop\\Water_Project\\backend\\WaterProejct.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
