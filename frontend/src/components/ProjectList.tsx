@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { Project } from "./types/Project";
+import { Project } from "../types/Project";
+import { useNavigate } from "react-router-dom";
 
 type ProjectListProps = {
   selectedCategories: string[];
@@ -10,6 +11,7 @@ function ProjectList({ selectedCategories }: ProjectListProps) {
   const [pageSize, setPageSize] = useState<number>(10);
   const [pageNum, setPageNum] = useState<number>(1);
   const [totalItems, setTotalItems] = useState<number>(0);
+  const navigate = useNavigate();
 
   const totalPages = Math.ceil(totalItems / pageSize);
 
@@ -58,12 +60,21 @@ function ProjectList({ selectedCategories }: ProjectListProps) {
                 {p.projectFunctionalityStatus}
               </li>
             </ul>
+            <button
+              className="btn btn-success"
+              onClick={() => navigate(`/donate/${p.projectName}/${p.projectId}`)}
+            >
+              Donate
+            </button>
           </div>
         </div>
       ))}
 
       <div className="pagination">
-        <button disabled={pageNum === 1} onClick={() => setPageNum(pageNum - 1)}>
+        <button
+          disabled={pageNum === 1}
+          onClick={() => setPageNum(pageNum - 1)}
+        >
           Previous
         </button>
         {[...Array(totalPages)].map((_, index) => (
